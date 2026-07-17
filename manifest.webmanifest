@@ -1,0 +1,25 @@
+{
+  "name": "Forkuslugi — Госуслуги Форкляндии",
+  "short_name": "Forkuslugi",
+  "description": "Портал государственных услуг Форкляндии: работа, недвижимость, налоги, штрафы, голосования.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#020608",
+  "theme_color": "#020608",
+  "icons": [
+    {
+      "src": "svg/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "svg/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

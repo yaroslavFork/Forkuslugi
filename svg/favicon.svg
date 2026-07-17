@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <defs>
+    <linearGradient id="fkFaviconGrad" x1="30" y1="20" x2="210" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00ff88"/>
+      <stop offset="0.55" stop-color="#00c9a7"/>
+      <stop offset="1" stop-color="#0a4d8a"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="240" height="240" rx="48" fill="#020608"/>
+  <path d="M120,30 L190,58 L190,114 C190,160 161,194 120,210 C79,194 50,160 50,114 L50,58 Z"
+    fill="none" stroke="url(#fkFaviconGrad)" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M90,118 L112,142 L152,94" stroke="url(#fkFaviconGrad)" stroke-width="15"
+    stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

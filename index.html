@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="theme-color" content="#020608" />
+  <meta name="description" content="Forkuslugi — портал государственных услуг Форкляндии." />
+
+  <title>Forkuslugi — Госуслуги Форкляндии</title>
+
+  <link rel="manifest" href="manifest.webmanifest" />
+
+  <!-- Иконка вкладки браузера -->
+  <link rel="icon" type="image/svg+xml" href="svg/favicon.svg" />
+
+  <!-- Иконка при добавлении на экран "Домой".
+       Примечание: iOS Safari официально не поддерживает SVG для apple-touch-icon —
+       это ограничение платформы. На Android/Chrome SVG работает полностью корректно. -->
+  <link rel="apple-touch-icon" href="svg/favicon.svg" />
+
+  <!-- Режим полноэкранного веб-приложения на iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Forkuslugi" />
+
+  <!-- Режим полноэкранного веб-приложения на Android/Chrome -->
+  <meta name="mobile-web-app-capable" content="yes" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app-root">
+    <noscript>
+      <div style="padding:24px;text-align:center;color:#eafff2;font-family:-apple-system,sans-serif;">
+        Forkuslugi требует включённый JavaScript для работы.
+      </div>
+    </noscript>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

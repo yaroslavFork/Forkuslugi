@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <defs>
+    <linearGradient id="fkGradShield" x1="30" y1="20" x2="210" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00ff88"/>
+      <stop offset="0.55" stop-color="#00c9a7"/>
+      <stop offset="1" stop-color="#0a4d8a"/>
+    </linearGradient>
+    <filter id="fkGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Свечение под основной формой -->
+  <g filter="url(#fkGlow)" opacity="0.8">
+    <path d="M120,22 L198,54 L198,116 C198,166 165,204 120,222 C75,204 42,166 42,116 L42,54 Z"
+      fill="none" stroke="url(#fkGradShield)" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M88,120 L112,146 L156,92" stroke="url(#fkGradShield)" stroke-width="14"
+      stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Щит -->
+  <path d="M120,22 L198,54 L198,116 C198,166 165,204 120,222 C75,204 42,166 42,116 L42,54 Z"
+    fill="rgba(0,255,136,0.06)" stroke="url(#fkGradShield)" stroke-width="10" stroke-linejoin="round"/>
+
+  <!-- Галочка / знак подтверждения (государственная услуга оказана) -->
+  <path d="M88,120 L112,146 L156,92" stroke="url(#fkGradShield)" stroke-width="14"
+    stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
